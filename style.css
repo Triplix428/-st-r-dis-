@@ -6,11 +6,11 @@ body {
   background-color: #820101;
   color: blanchedalmond;
 }
-@media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
   body {
     overflow: hidden;
   }
-}
+} */
 .btn-warning {
   background-color: #820101;
   color: blanchedalmond;
@@ -25,9 +25,14 @@ body {
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
-  height: 100vh; /****/
+  height: 100vh; 
 }
 
+@media (max-width: 1199px) {
+  .heroes {
+    height: 90%;
+  }
+}
 .heroes-2 {
   background-image: url(Flags.png);
   background-size: cover;
